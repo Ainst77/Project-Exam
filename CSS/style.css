@@ -1,0 +1,812 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family:"Eras";
+    src: url('Eras_Book.ttf') format('truetype');
+    
+}
+
+html{
+    overflow-x: hidden;
+}
+
+
+body{
+    
+    display: flex;
+    flex-direction: column;
+    font-family: Eras,raleway, helvetica;
+    background-color:#F2D479;
+    overflow-x: hidden;
+    padding: 0;
+    
+}
+
+.contentWrapper{
+    max-width: 1280px;
+    margin:0 auto;
+}
+
+h1,h2{
+    font-family: impact;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+header{
+    margin:0;
+    width:100%;
+    height: 250px;
+    border-bottom: 1px solid #451D13;
+    background-image:url(images/header.jpg);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+.logoWrapper{
+    position:absolute;
+    width:auto;
+    height:auto;
+    left:38%;
+    margin-top:100px;
+    z-index:1;   
+}
+
+.logo{
+   width:100%;
+   height:auto;
+}
+
+/*********** menu **************/
+
+nav{
+    height:60px;
+    width:50%;  
+    margin: 30px auto 0 auto;
+    font-size: 1em;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    width: 100%;
+    height:auto;
+    text-align: center;
+    color: #451D13;    
+}
+
+ul li{
+    display:inline-block;
+    width: 100px;
+    height:20px;
+    padding:1%;
+    margin:0 1%;
+    border-radius:18px;
+    background-color: #fcf5e6;
+    box-shadow:#451D13 5px 5px;
+    opacity: 0.8; 
+}
+
+ul li a{
+    color: #451D13;;
+}
+
+ul li:hover{
+    color: #fcf5e6;
+    background-color:#bea06e; 
+}
+
+
+.homeHeading{
+    position:relative;
+    font-size: 3em;
+    text-align: center;
+    padding-top:1%;
+    text-transform: uppercase;
+    color:#451D13;
+    z-index:10;
+}
+
+/*************** mid container info home site ****************/
+
+.containerWrap{
+    display:flex;
+    margin: 2% auto;
+    height: auto;
+    width:90%;
+    float: right;
+}
+
+.homeContainer{
+    width: 100%;
+    height: auto;
+    display:flex;
+}
+
+.crewRocetLauchContainer{
+    flex:30%;
+    margin: 0 1%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #bea06e;
+    box-shadow:#451D13 10px 10px;
+}
+
+
+
+.textHeader{
+    text-align: center;
+    margin-top: 0;
+    padding-top:5%;
+    font-size: 1em;
+    height:45px;
+    text-transform: uppercase;
+    background-color: #fcf5e6;
+    color:#451D13;
+    border-radius: 15px 15px 0px 0px ;
+}
+
+
+.astronaut{
+    width:95%;
+    padding: 1%;
+}
+
+.astronaut:hover{
+    opacity:0.6;
+}
+
+.rocket{
+    width:80%;
+    padding:1%;
+    margin-left:5%;
+}
+
+
+
+.rocket:hover{
+     opacity:0.6;
+}
+
+
+
+.upcomingDates{
+    margin-top: 0;
+}
+
+
+.launchHeader{
+    text-align: center;
+    padding-top:4%;
+    height:200px;
+    text-transform: uppercase;
+    color:white;
+    background-image: url(images/laucnhes.jpg);
+}
+
+.container{
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 0.8em;  
+}
+
+
+
+/************ API upcoming on home page *****************/
+
+.launchContainer{
+    margin: -13px auto 0px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: #fcf5e6;
+    background-color: #bea06e;
+    max-height: 23.5em;
+    overflow-y: auto;
+    border-radius: 10px 0px 10px 10px;
+    z-index: -1;
+}
+
+.upcomingHeader{
+    font-size: 1em;
+}
+
+.upcomingInfo{
+    width: 90%;
+    height: 70px;
+    margin:7px;
+    color: #fcf5e6;
+    text-align: center;
+    background-color: #451D13;
+    /*border: 1px solid #451D13;*/
+    border-radius: 10px;   
+}
+
+.dayPic{
+    margin-top:0;
+}
+
+/*************** Picture/video of the day ******************/
+
+.picWrap{
+    width: 90%;
+    height: auto;
+    position: relative;
+    margin: 1% auto;
+    padding:5%;
+    background-color:#bea06e;
+    border:1px solid #fcf5e6;
+}
+
+.picOftheDay{
+    width: 100%;
+    height:auto;
+    margin: 0 auto 2% auto;
+}
+
+.IOfTDayHeader{
+    text-align:center;   
+}
+
+.explanation{
+    padding:2%;
+    color:#fcf5e6;
+    background-color:#451D13;
+}
+
+.videoYoutube{
+    position:relative;
+    width: 100%;
+    height:auto;
+    margin:1% auto;   
+}
+
+.videoYoutube iframe{
+    position:absolute;
+    width: 100%;
+    height:auto;
+    margin:0 auto;  
+}
+
+
+
+/************** All Lauches page ***************/
+
+.allLaunchContainer{
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: #fcf5e6;
+    background-color: #bea06e;
+    max-width:1280px;
+    max-height: 50em;
+    overflow-y: auto;
+    z-index: -1;
+}
+
+.launchTextContainer{
+    margin-top:0;
+     background-color:#451D13;
+     color:#fcf5e6;
+     height:3em;
+     border-bottom:2px solid #fcf5e6;
+}
+
+.launchText{
+    text-align:center;
+    font-style: italic, bold;
+    padding:1%;
+    /*background-color:#fcf5e6;*/
+}
+
+.launchInfoHeader{
+    margin:2% 0 0 0;
+}
+
+
+.launchInfo{
+    display: flex;
+    flex-flow: row wrap;
+    width: 45%;
+    height: 150px;
+    margin: 5px;
+    background-color: #fcf5e6;
+    border: 1px solid #451D13;
+    border-radius: 10px 10px;
+    box-shadow: #451D13 5px 5px ;
+}
+
+.imgContainer{
+    flex:15%;
+    padding-left: 5%;
+}
+
+.launchImg{
+    align-content: center;
+    max-height:130px;
+    padding: 3%;
+}
+
+.launchContent{
+    flex:50%;
+    text-align: center;
+    
+}
+
+button{
+    font-family:eras;
+    font-weight: bold;
+    font-size:0.7em;
+    height: 3em;
+    width: 10em ;
+    background-color:#451D13 ;
+    color: #F7F8F8;
+    border-radius:10px;
+}
+
+button:hover{
+    font-family:eras;
+    background-color: #F2A057;
+    color: #451D13;
+}
+
+#backButton{
+    position:relative;
+    margin-top:10%;
+    z-index:5;
+}
+
+#backButton:hover{
+    background-color:#fcf5e6 ;
+    color: #733A19;
+}
+
+/******************* info of every Launch ********************/
+
+.containerInfo{
+    display: flex;
+    background-color: #fcf5e6;
+    width:80%;
+    height:auto;
+    margin:0 auto;
+}
+
+.imageWrap{
+    flex:45%;
+}
+
+.infoImg{
+    margin: 8%;
+    max-width:80%;
+
+}
+
+.details{
+    font-size: 1.3em;
+}
+
+
+
+iframe{
+    margin: 0 auto;
+}
+
+.infoDetails{ 
+    flex:45%;
+    height: auto;
+    text-align: center;
+    margin:3%;
+    padding:1% 3% 1% 3%;
+    background-color:#fcf5e6;
+    box-shadow: 5px 10px #451D13;
+    border: 1px solid #451D13;
+}
+
+.subHeader{
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.backButtonWrap{
+    text-align:center;
+    height:80px;
+}
+
+#launcheBackButton{
+    position:relative;
+}
+
+
+/************** Meet the crew page ******************/
+
+.crewContainer{
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.crewWrap{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    height:auto;
+    margin: 3% auto;
+    background-color: #fcf5e6;
+    border: 1px solid #451D13;
+    border-radius: 10px 10px;
+    box-shadow: #451D13 5px 5px ;
+}
+
+.crewImgContainer{
+    
+    flex:50%;
+    width:50%;   
+}
+
+.crewImg{
+    max-width:15em;
+    height: auto;
+    align-content: center;
+    margin-left:10%;
+    padding: 3%;
+}
+
+.crewDetails{
+    flex:50%;
+    width:50%;
+}
+
+.viewWikipedia{
+    width:15em;
+    height:5em;
+    margin-bottom:1em;
+}
+
+
+/************** The rockets *****************/
+
+.rocketContainer{
+     margin: 0 auto;
+     width: 45%;   
+}
+
+.rocketInfoWrap{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 200px;
+    margin: 1% 0;
+    background-color: #fcf5e6;
+    border: 1px solid #451D13;
+    border-radius: 10px 10px;
+    box-shadow: #451D13 5px 5px ;
+}
+
+.rocketImgWrap{
+    flex:30%;
+    margin: 2%;
+}
+
+
+.rocketImgFront{
+    max-height:170px;
+    height:auto;
+}
+
+.rocketContent{
+    flex:45%;
+    text-align: center;
+}
+
+
+/************* rocket info page ****************/
+
+.rocketDetailsInfo{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fcf5e6;  
+}
+
+
+ .rocketImgWrap{
+     flex:45%;
+ }
+
+.rocketInfoImg{
+    width: 80%;
+    margin: 2%;
+    box-shadow: 5px 10px #451D13;
+    border: 1px solid #451D13;  
+}
+
+.rocketDetailContent{
+    flex:45%;
+    margin:2%;
+    height: auto;
+    text-align: center;
+    max-width: 40%;
+    padding:3%;
+    border: 1px solid #451D13;
+    border-radius: 10px 10px;
+    box-shadow: #451D13 5px 5px ;  
+}
+
+.rocketComapny{
+  font-size:1.5em;  
+}
+
+.viewWikipedia{
+    margin-top:3%;
+}
+
+/******************* Contact page *********************/
+
+.contactWrap{
+    display:flex;
+    width:80%;
+    margin:0 auto;
+}
+
+.contactForm{
+    flex:55%;
+    width:70%;
+    text-align:left;
+    margin:2% auto;
+    padding:4%;
+    color:#fcf5e6;
+    background-color:#bea06e;
+    
+}
+
+label{
+    width:90%;
+}
+
+input[type=text]{
+    width:100%;
+    height:2em;
+    margin-left:1em ;
+    display: inline-block;
+    border-radius:10px;
+    
+}
+
+
+input[type=submit]{
+    background-color:#F28627;
+    width:20em;
+    height:3em;
+    color:white;
+    margin-left:3%;
+    margin-right:20%;
+    margin-bottom:1%;
+    border-radius:10px;
+}
+
+input[type=submit]:hover{
+    background-color:#fcf5e6;
+    color:black;
+}
+
+input::placeholder{
+    padding-left:1%;
+}
+
+.formfield{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin: .5rem;
+}
+
+.contactMap{
+    flex:40%;
+    width:100%;
+    height:auto;
+    margin:3%;
+}
+
+
+#yourName, #email, #adress{
+    height: 25px;
+    width:100%;
+    margin-top: 1%;
+    border-radius: 10px 10px;
+}
+
+#message{
+    height: 75px;
+    width:100%;
+    margin-top: 1%;
+    border-radius: 10px 10px;
+
+}
+
+#errorName{
+    display: none;
+    color:red;
+    font-size: 0.8em;
+   
+}
+#messageError{
+    display: none;
+    color:red;
+    font-size: 0.8em;
+}
+
+#errorEmail{
+    display: none;
+    color:red;
+    font-size: 0.8em;
+}
+
+/********************** Aobut page ***********************/
+
+
+.aboutWrap{
+    display:flex;
+    margin:0 auto;
+    width:85%;
+    background-color:#fcf5e6;
+}
+
+.aboutImg{
+    flex:45%;
+    height:auto;
+    margin:5% 1%;
+    padding:5%;
+    border:1px solid #451D13;
+    background-color:#bea06e;
+    border-radius:10px;  
+  }
+
+.aboutTextWrap{
+    flex:50%;
+    text-align:center;
+    padding:5%;
+}
+
+.aboutTextWrap{
+    margin:5% 2%;
+    background-color:#bea06e;
+    border-radius:10px;
+    border:1px solid #451D13;
+}
+
+/************* FOOTER **************/ 
+
+footer{
+    clear:boath;
+    left: 0;
+    bottom: 0;
+    background-image:url(images/footersmoke3.png);
+    background-color:#FBFAE2;
+    width:100%;
+    height:250px;
+    color:#451D13;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+      
+}
+
+.footerWrap{
+    display: flex;
+    width: 80%;
+    margin:5% auto 1% auto;
+    list-style-type: none;
+    text-align:center;
+}
+
+
+.footerInfo{
+    flex:25%;
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    color:#451D13;
+}
+
+footer a{
+    color:#451D13;
+}
+
+.liFooter{
+    flex: 30%;
+    flex-direction: row;
+    font-size: 16px;
+    text-align: left;
+    color:#451D13;
+}
+
+.liSocial{
+    flex: 30%;
+    width:30%;
+    padding:2%;
+}
+
+.liAlign{
+    margin:0 auto;
+    width:50%;
+}
+
+.footerHover:hover{
+    color:#bea06e;
+}
+
+.facebook{
+    width:50px;       
+}
+
+.instagram{
+    width:50px;
+    height:auto;
+}
+    
+.youtube{
+    width:50px;
+    height:auto;
+}
+    
+.twitter{
+    width:50px;
+    height:auto;
+}
+
+.facebook:hover{
+    opacity: 0.5;
+        
+}
+
+.instagram:hover{
+    opacity: 0.5;
+}
+    
+.youtube:hover{
+    opacity: 0.5;
+}
+    
+.twitter:hover{
+    opacity: 0.5;
+}
+
+
+
+/*********** LOADER ************/
+
+.loader {
+    margin: 0 auto;
+    border: 12px solid black;
+    border-top: 12px solid #fcf5e6;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s cubic-bezier(0.19, 1, 0.22, 1) infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
