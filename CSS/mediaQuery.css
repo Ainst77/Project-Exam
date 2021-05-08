@@ -1,0 +1,529 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+@media screen and (max-width:2100px) {
+
+    .logoWrapper{
+    left:34%;
+        
+    }
+}
+
+
+
+
+@media screen and (max-width:1700px) {
+
+    .logoWrapper{
+    left:30%;
+        
+    }
+}
+
+@media screen and (max-width:1450px) {
+
+    .logoWrapper{
+    left:26%;
+        
+    }
+    
+    .rocketContainer{
+        
+    }
+}
+
+
+
+@media screen and (max-width:1095px) {
+    body{
+        background-color:orange;
+    }
+    
+    .logoWrapper{
+   
+    left:17%;
+    
+}
+    nav{
+      width:70%;
+    }
+    
+    ul li{
+        height:20px;
+        padding:1.5%;
+    }
+    
+     .containerWrap{
+        width:100%;
+        padding:3%;
+    }
+
+    .astronaut{
+        margin-top:8%;
+        
+    }
+
+    .crew{
+        width: 70%; 
+        height: auto;
+
+    }
+
+    .rocket{
+        margin-top:8%;
+        width:100%;
+}
+    .rocketContainer{
+        width: 100%; 
+        height: auto;
+
+    }
+
+   
+    .rocketImgContainer{
+        width:40%;
+        padding: 3%;
+    }
+
+
+    .rocketContent{
+        width:50%;
+        margin:2% auto;
+        text-align: center;
+
+    }
+    
+    /* launche details*/
+    
+    .containerInfo{
+    width:100%;
+
+}
+        /*Rockets*/
+        
+    .rocketInfoWrap{
+     flex-flow: column wrap;
+     width:90%;
+     margin:2% auto;
+     
+    }    
+    
+    /*rocket ditails*/
+    
+    .rocketDetailsInfo{
+        width:100%;   
+    }
+    
+    /*Contact form*/
+    
+    .contactWrap{
+    
+        margin:2% auto;  
+}
+
+    
+    /*  footer */
+    .footerWrap{
+        width:100%;
+        margin:7% auto 0 auto;
+    }
+    
+     .liFooter{
+        flex:35%;
+    }
+    
+    .liSocial{
+        flex:25%;
+        padding:0 3%;
+    }
+    
+    .facebook{
+        width:15%;
+        
+    }
+
+   .instagram{
+        width:15%;
+        height:auto;
+    }
+    
+    .youtube{
+        width:15%;
+        height:auto;
+    }
+    
+    .twitter{
+        width:15%;
+        height:auto;
+    }
+    
+    
+}
+
+
+
+
+
+@media screen and (max-width:775px) {
+    body{
+        background-color:red;
+    }
+    nav{
+      width:100%;
+    }
+    
+    
+        .logoWrapper{
+   
+    left:8%;
+    margin-top:80px;
+    
+}
+    
+    .containerWrap{
+        flex-direction:column;
+        width:80%;
+    }
+    
+    .textHeader{
+        margin-top: 0;
+        padding-top:3%;
+        font-size: 1em;
+        height:40px;
+   
+    }   
+
+    
+    .crewRocetLauchContainer{
+        flex:100%;
+        margin: 2% auto;
+        width: 70%; 
+        max-height:30em ;
+       
+    }
+    .astronaut{
+        margin:0 4%;
+        width:80%;
+    }
+    .rocket{
+        margin:2% 10%;
+        width:70%;
+}
+
+    /* all launche page */
+    .allLaunchContainer{
+        display: block ;
+    }
+
+    .launchInfo{
+        margin: 2% auto;
+        width: 70%;
+
+    }
+    
+     /* launche details*/
+    
+    .containerInfo{
+    flex-direction:column;
+
+}
+
+    .infoImg{
+        margin:10%;
+    }
+    
+    .infoDetails{
+        max-width:90%;
+        margin: 1% auto;
+    }
+
+    /* meet the crew*/
+
+    .crewWrap{
+        flex-flow: column wrap;
+        width: 80%;
+        height:auto;
+        text-align: center; 
+        
+    }
+
+    .crewImgContainer{
+    
+        flex:100%;
+        width:90%;
+        
+    }
+
+    .crewDetails{
+        flex:100%;
+        width:100%;
+    }
+    
+    
+
+    /* rockets */
+    .rocketContainer{
+        width: 90%;
+        margin:0 auto;
+    }
+    .rocketInfoWrap{
+        flex-flow: column wrap;
+        height: auto;
+        margin-bottom:2%;
+
+    }
+
+    .rocketImgContainer{
+        width:100%;
+        height:auto;
+        padding: 3%;
+    }
+
+    .rocketImgFront{
+        width:90%;
+        max-height:none;
+        margin:5%;
+        
+    }
+
+    .rocketContent{
+        width:100%;
+        text-align: center;
+
+    }
+    
+    .rocketButton{
+        margin-bottom:2%;
+    }
+
+    /* Rocket ditails*/
+    .rocketDetailsInfo{
+    flex-flow: column wrap;
+    
+    }
+    .rocketImgWrap{
+        flex:100%;
+    }
+    
+  .rocketDetailContent{
+      flex:100%;
+      max-width:none;
+  }
+  
+  .rocketInfoImg{
+      width: 95%;
+      height:auto;
+  }
+  
+  
+  /* ------ About ------*/
+  .aboutWrap{
+      flex-direction:column;
+  }
+  
+  /*  ----Contact us------ */
+  
+  .contactWrap{
+      display:flex;
+      flex-flow: column wrap;
+      width:100%;
+  }
+  
+  iframe{
+      flex:100%;
+  }
+  
+  
+  form{
+    width: 100%;
+    margin: 2% auto;
+    }
+    
+    .contactMap{
+        flex:100%;
+        margin:2%;
+        margin: 0 auto;
+    }
+    
+    
+    /*****FOOTER******/
+    
+    .footerWrap{
+        width:100%;
+        margin:8% auto 0 auto;
+    }
+    
+   
+    
+}  
+ @media screen and (max-width:610px){
+
+    body{
+        background-color:green;
+    }
+
+     nav{
+        position:relative;
+        width:170px;
+        height:170px;
+        margin: 10px auto 0 auto;
+        text-align:center;
+        z-index:10;
+         
+     }
+     
+     nav ul{
+        display:flex;
+        flex-direction:column;
+      
+      
+    }
+    
+    nav ul li{
+        padding:2%;
+        margin:3%;
+        
+        
+    }
+    
+    .homeHeading{
+        margin-top:0%;
+    }
+    
+     .logoWrapper{
+   
+    left:4%;
+    margin-top:70px;
+    
+}
+
+    .launchInfo{
+        width: 90%;
+
+    }
+    
+    .launchTextContainer{
+        height:auto;
+    }
+    
+    .crewRocetLauchContainer{
+        width:100%;
+    }
+    
+    .contactForm{
+        width:85%;
+        padding:2%;
+        margin:2% auto;
+    
+    }
+
+    footer{
+        height:430px;
+    }
+    
+    .footerWrap{
+        display:block;
+        margin:2% auto 0 auto;
+    }
+    
+    .liSocial{
+        text-align:center;
+        width:100%;
+        margin:3% auto;
+        padding:0;
+    }
+    
+    .liFooter{
+        text-align:center;
+        width:90%;
+        margin:4% auto;
+    }
+    
+     .facebook{
+        width:11%;
+        
+        
+    }
+
+   .instagram{
+        width:11%;
+        height:auto;
+    }
+    
+    .youtube{
+        width:11%;
+        height:auto;
+    }
+    
+    .twitter{
+        width:11%;
+        height:auto;
+    }
+    
+    
+    
+    
+ }
+ 
+  @media screen and (max-width:418px){
+      body{
+        background-color:blue;
+    }
+    
+    .logoWrapper{
+    
+    left:1%;
+    top:10%;
+    
+}
+
+    .logo{
+        width:70%;
+    }
+    .homeHeading{
+    font-size:1.7em;
+    }
+    
+    
+    .dayPic{
+    font-size:0.9em;
+}
+    
+    .crewRocetLauchContainer{
+        margin: 3.5% auto;
+        
+    }
+    
+    .launchInfo{
+        height:200px;
+        width:100%;
+        
+    }
+    
+    .launchImg{
+        padding:10% 3%;
+    }
+    
+    .launchContainer{
+          max-height:18em;
+      }
+    
+    .crewImg{
+        max-width: 12em;
+    }  
+    
+    .video-stream .html5-main-video{
+        width:100%;
+        height:auto;
+    }
+    
+    .liFooter{
+        width:90%;
+    }
+      
+  }
+  
+   
