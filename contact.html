@@ -24,52 +24,51 @@
                     </ul> 
                 </nav>
               
-                <h1 class="homeHeading">Contact us</h1>
+                <h1 class="homeHeading">Spaceflights</h1>
         </header>   
         
-            <div class="contactWrap">
+        <div class="contactWrap">
+            
+            <form class="contactForm"  method="get" target="_blank" name="contactForm">
                 
-                <form class="contactForm" action="thankyou.html" method="get" target="_blank" name="contactForm">
+                <fieldset>    
+                    <legend>Contact US </legend>
+                    <div class="formfield">
+                        <label>Name (required): 
+                            <input name="yourName" id="yourName" placeholder="Your name..."/>
+                        </label> 
+                    </div> 
+                    <div id="errorName">Please enter your name</div>  
                     
-                    <fieldset>    
-                        <legend>Contact US </legend>
-                        <div class="formfield">
-                            <label>Name (required): 
-                                <input name="yourName" id="yourName" placeholder="Your name..."/>
-                            </label> 
-                        </div> 
-                        <div id="errorName">Please enter your name</div>  
-                        
-                        <div class="formfield">
-                            <label for="email">Email adress (required)  :
-                                <input name="email" id="email" placeholder="Email">
-                            </label>
-                        </div>
-                         <div id="errorEmail">This is not an emailadress</div>
+                    <div class="formfield">
+                        <label for="email">Email adress (required)  :
+                            <input name="email" id="email" placeholder="Email">
+                        </label>
+                    </div>
+                        <div id="errorEmail">This is not an emailadress</div>
+                
+                    <div class="formfield">
+                        <label for="message">Message:
+                            <textarea name="message" id="message" rows="8" cols="30" placeholder="Write message.."  ></textarea>
+                        </label>
+                    </div>
+                    <div id="messageError">Please write at least 10 char.</div>
                     
-                        <div class="formfield">
-                            <label for="message">Message:
-                                <textarea name="message" id="message" rows="8" cols="30" placeholder="Write message.."  ></textarea>
-                            </label>
-                        </div>
-                        <div id="messageError">Please write at least 10 char.</div>
-                      
-                        <button class="submit" type="submit"  value="Submit">Submit </button>
-                    </fieldset>     
-                </form>    
-            
-            
-                <iframe class="contactMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0861071725803!2d-80.62308478559333!3d28.627181282419905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e0bb46e5dbcd17%3A0xa671c8d42496cecc!2sLaunch%20Pad%2039B!5e0!3m2!1sno!2sno!4v1618430046869!5m2!1sno!2sno" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy">
-                    
-                </iframe>
-            </div>
+                    <button class="submit" type="submit"  value="Submit">Submit </button>
+                </fieldset>     
+            </form>    
+        
+        
+            <iframe class="contactMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0861071725803!2d-80.62308478559333!3d28.627181282419905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e0bb46e5dbcd17%3A0xa671c8d42496cecc!2sLaunch%20Pad%2039B!5e0!3m2!1sno!2sno!4v1618430046869!5m2!1sno!2sno" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy">
+                
+            </iframe>
+        </div>
             
         <footer> 
            <div class="footerWrap">
                
                 <div class="liFooter">
                   <div class="liAlign">
-                      <h2>Spaceflights</h2>
                     <div>Rocket Road</div>
                     <div>CA 90250 HAWTHORNE</div>
                     <div>CALIFORNIA</div>
@@ -78,7 +77,6 @@
             
                 <div class="liFooter">
                     <div class="liAlign">
-                        <h3>Information</h3>
                         <a href="https://www.spacex.com/"><li class="footerHover">Space X</li></a>
                         <a href="https://www.spacex.com/human-spaceflight/"><li class="footerHover">Human spaceflight</li></a>
                         <a href="https://mars.nasa.gov/" target="_blank"><li class="footerHover">Mars program</li></a>
@@ -88,13 +86,12 @@
                 </div> 
 
                 <div class="liSocial">
-                    <h3>Follow us</h3>
                     <a href="https://www.instagram.com/spacex/"><img class="instagram" src="images/instagram.png"></a>
                     <a href="https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA"><img class="youtube" src="images/youtube.png"></a>
                     <a href="https://twitter.com/spacex"><img class="twitter" src="images/twitter.png"></a>
                 </div> 
             </div> 
-        </footer>                           
+        </footer>                    
            
             
         <script src="form.js"></script> 
