@@ -370,14 +370,19 @@
     }
     
     .homeHeading{
-    font-size:1.7em;
+        font-size:1.7em;
     }
     
     
     .logoWrapper{
    
-    left:4%;
-    margin-top:70px;
+        left:4%;
+        margin-top:70px;
+    
+    }
+
+    .explanation{
+        max-width:100%;
     
     }
 

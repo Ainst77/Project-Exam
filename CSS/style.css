@@ -275,6 +275,8 @@ ul li:hover{
 .explanation{
     padding:2%;
     color:#fcf5e6;
+    max-width:70%;
+    margin:0 auto;
     background-color:#451D13;
 }
 
