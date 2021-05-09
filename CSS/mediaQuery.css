@@ -2,19 +2,35 @@
 /* CSS Document */
 
 
-@media screen and (max-width:1990px) {
+
+
+@media screen and (max-width:2100px) {
 
     .logoWrapper{
-        left:34%;
+    left:34%;
         
     }
 }
 
 
-@media screen and (max-width:1400px) {
+
+
+@media screen and (max-width:1700px) {
 
     .logoWrapper{
-        left:31%;
+    left:30%;
+        
+    }
+}
+
+@media screen and (max-width:1450px) {
+
+    .logoWrapper{
+    left:26%;
+        
+    }
+    
+    .rocketContainer{
         
     }
 }
@@ -22,13 +38,12 @@
 
 
 @media screen and (max-width:1095px) {
-    body{
-        background-color:orange;
-    }
-    
+   
     .logoWrapper{
-        left:16%;   
-    }   
+   
+    left:17%;
+    
+}
     nav{
       width:70%;
     }
@@ -51,21 +66,25 @@
     .crew{
         width: 70%; 
         height: auto;
+
     }
 
     .rocket{
         margin-top:8%;
         width:100%;
-    }
+}
     .rocketContainer{
         width: 100%; 
         height: auto;
+
     }
 
+   
     .rocketImgContainer{
         width:40%;
         padding: 3%;
     }
+
 
     .rocketContent{
         width:50%;
@@ -74,40 +93,45 @@
 
     }
     
-    /* launche details*/
+    /******* launche details ************/
     
     .containerInfo{
-        width:100%;
+    width:100%;
     }
-        /*Rockets*/
+    
+    /************ Rockets ************/
         
     .rocketInfoWrap{
-        flex-flow: column wrap;
-        width:90%;
-        margin:2% auto;
+     flex-flow: column wrap;
+     width:90%;
+     margin:2% auto;
     }    
     
-    /*rocket ditails*/
+    /*********** rocket ditails ***********/
     
     .rocketDetailsInfo{
         width:100%;   
     }
     
-    /*Contact form*/
+    /*********** Contact form **************/
     
     .contactWrap{
-    
         margin:2% auto;  
-    }   
+    }
 
     
-    /*  footer */
+    /**********  footer ***************/
     .footerWrap{
         width:100%;
-        margin:11% auto 0 auto;
+        margin:7% auto 0 auto;
+    }
+    
+     .liFooter{
+        flex:35%;
     }
     
     .liSocial{
+        flex:25%;
         padding:0 3%;
     }
     
@@ -139,16 +163,16 @@
 
 
 @media screen and (max-width:775px) {
-    body{
-        background-color:red;
-    }
     nav{
-            width:100%;
+        width:100%;
     }
     
+    
     .logoWrapper{
-        left:6%;
-        margin-top:80px; 
+       
+        left:8%;
+        margin-top:80px;
+    
     }
     
     .containerWrap{
@@ -161,20 +185,20 @@
         padding-top:3%;
         font-size: 1em;
         height:40px;
-    }  
-    
+    }   
+
     .crewRocetLauchContainer{
         flex:100%;
         margin: 2% auto;
         width: 70%; 
         max-height:30em ;
     }
-
+    
     .astronaut{
         margin:0 4%;
         width:80%;
     }
-
+    
     .rocket{
         margin:2% 10%;
         width:70%;
@@ -188,13 +212,14 @@
     .launchInfo{
         margin: 2% auto;
         width: 70%;
+
     }
     
-     /* launche details*/
+     /******** launche details ************/
     
     .containerInfo{
     flex-direction:column;
-}
+    }
 
     .infoImg{
         margin:10%;
@@ -205,7 +230,7 @@
         margin: 1% auto;
     }
 
-    /* meet the crew*/
+    /********** meet the crew **********/
 
     .crewWrap{
         flex-flow: column wrap;
@@ -229,16 +254,16 @@
     
     
 
-    /* rockets */
+    /************ rockets ************/
     .rocketContainer{
         width: 90%;
         margin:0 auto;
     }
+    
     .rocketInfoWrap{
         flex-flow: column wrap;
         height: auto;
         margin-bottom:2%;
-
     }
 
     .rocketImgContainer{
@@ -251,7 +276,6 @@
         width:90%;
         max-height:none;
         margin:5%;
-        
     }
 
     .rocketContent{
@@ -264,7 +288,7 @@
         margin-bottom:2%;
     }
 
-    /* Rocket ditails*/
+    /*********** Rocket ditails **************/
     .rocketDetailsInfo{
     flex-flow: column wrap;
     
@@ -303,8 +327,8 @@
   
   
     form{
-        width: 100%;
-        margin: 2% auto;
+    width: 100%;
+    margin: 2% auto;
     }
     
     .contactMap{
@@ -318,46 +342,48 @@
     
     .footerWrap{
         width:100%;
-        margin:20% auto 0 auto;
+        margin:8% auto 0 auto;
     }
+    
+   
     
 }  
  @media screen and (max-width:610px){
 
-    body{
-        background-color:green;
-    }
-
-    nav{
+     nav{
         position:relative;
-        width:150px;
-        height:150px;
+        width:170px;
+        height:170px;
+        margin: 10px auto 0 auto;
         text-align:center;
         z-index:10;
-         
     }
      
      nav ul{
         display:flex;
-        flex-direction:column; 
+        flex-direction:column;
     }
     
     nav ul li{
-        padding:1%;
-        margin:3%;   
+        padding:2%;
+        margin:3%;
     }
     
     .homeHeading{
-        margin-top:2%;
+    font-size:1.7em;
     }
     
-     .logoWrapper{
-        left:4%;
-        margin-top:70px;   
+    
+    .logoWrapper{
+   
+    left:4%;
+    margin-top:70px;
+    
     }
 
     .launchInfo{
         width: 90%;
+
     }
     
     .launchTextContainer{
@@ -373,33 +399,38 @@
         padding:2%;
         margin:2% auto;
     }
+    
+    .aboutWrap{
+        width:100%;
+    }
 
     footer{
-        height:350px;
+        height:430px;
     }
     
     .footerWrap{
         display:block;
-        margin:12% auto 0 auto;
+        margin:2% auto 0 auto;
     }
     
     .liSocial{
         text-align:center;
         width:100%;
         margin:3% auto;
+        padding:0;
     }
     
     .liFooter{
         text-align:center;
-        width:60%;
+        width:90%;
         margin:4% auto;
     }
     
-    .facebook{
-        width:11%;   
+     .facebook{
+        width:11%;
     }
 
-    .instagram{
+   .instagram{
         width:11%;
         height:auto;
     }
@@ -420,25 +451,29 @@
  }
  
   @media screen and (max-width:418px){
-    body{
-        background-color:blue;
-    }
     
     .logoWrapper{
-    left:1%;
+    
+        left:1%;
+        top:10%;
+    }
+
+    .logo{
+        width:70%;
     }
     
     .dayPic{
-    font-size:0.9em;
+        font-size:0.9em;
     }
     
     .crewRocetLauchContainer{
-        margin: 3.5% auto;  
+        margin: 3.5% auto;
+        
     }
     
     .launchInfo{
         height:200px;
-        width:100%;  
+        width:100%;
     }
     
     .launchImg{

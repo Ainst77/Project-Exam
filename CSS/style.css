@@ -4,7 +4,11 @@
 @font-face {
     font-family:"Eras";
     src: url('Eras_Book.ttf') format('truetype');
-    
+}
+
+@font-face {
+    font-family:"ErasMed";
+    src: url('ERASDEMI.ttf') format('truetype');
 }
 
 html{
@@ -20,7 +24,6 @@ body{
     background-color:#F2D479;
     overflow-x: hidden;
     padding: 0;
-    
 }
 
 .contentWrapper{
@@ -28,8 +31,12 @@ body{
     margin:0 auto;
 }
 
-h1,h2{
+h1{
     font-family: impact;
+}
+
+h2{
+    font-family:ErasMed;
 }
 
 a{
@@ -57,7 +64,8 @@ header{
     height:auto;
     left:38%;
     margin-top:100px;
-    z-index:1;   
+    z-index:1;
+    
 }
 
 .logo{
@@ -65,7 +73,7 @@ header{
    height:auto;
 }
 
-/*********** menu **************/
+/*menu*/
 
 nav{
     height:60px;
@@ -80,7 +88,7 @@ ul{
     width: 100%;
     height:auto;
     text-align: center;
-    color: #451D13;    
+    color: #451D13;
 }
 
 ul li{
@@ -92,7 +100,8 @@ ul li{
     border-radius:18px;
     background-color: #fcf5e6;
     box-shadow:#451D13 5px 5px;
-    opacity: 0.8; 
+    opacity: 0.8;
+    
 }
 
 ul li a{
@@ -101,7 +110,7 @@ ul li a{
 
 ul li:hover{
     color: #fcf5e6;
-    background-color:#bea06e; 
+    background-color:#bea06e;
 }
 
 
@@ -115,7 +124,7 @@ ul li:hover{
     z-index:10;
 }
 
-/*************** mid container info home site ****************/
+/************** mid container info home site ******************/
 
 .containerWrap{
     display:flex;
@@ -129,6 +138,7 @@ ul li:hover{
     width: 100%;
     height: auto;
     display:flex;
+
 }
 
 .crewRocetLauchContainer{
@@ -202,7 +212,8 @@ ul li:hover{
 
 
 
-/************ API upcoming on home page *****************/
+
+/************* API upcoming on home page ***************/
 
 .launchContainer{
     margin: -13px auto 0px auto;
@@ -215,10 +226,12 @@ ul li:hover{
     overflow-y: auto;
     border-radius: 10px 0px 10px 10px;
     z-index: -1;
+
 }
 
 .upcomingHeader{
     font-size: 1em;
+    letter-spacing: 1px
 }
 
 .upcomingInfo{
@@ -228,15 +241,14 @@ ul li:hover{
     color: #fcf5e6;
     text-align: center;
     background-color: #451D13;
-    /*border: 1px solid #451D13;*/
-    border-radius: 10px;   
+    border-radius: 10px;
 }
 
 .dayPic{
     margin-top:0;
 }
 
-/*************** Picture/video of the day ******************/
+/*************** Picture of the day ****************/
 
 .picWrap{
     width: 90%;
@@ -252,10 +264,12 @@ ul li:hover{
     width: 100%;
     height:auto;
     margin: 0 auto 2% auto;
+
 }
 
 .IOfTDayHeader{
-    text-align:center;   
+    text-align:center;
+    
 }
 
 .explanation{
@@ -268,19 +282,21 @@ ul li:hover{
     position:relative;
     width: 100%;
     height:auto;
-    margin:1% auto;   
+    margin:1% auto;
+    
 }
 
 .videoYoutube iframe{
     position:absolute;
     width: 100%;
     height:auto;
-    margin:0 auto;  
+    margin:0 auto;
+    
 }
 
 
 
-/************** All Lauches page ***************/
+/*************** All Lauches page ******************/
 
 .allLaunchContainer{
     margin: 0 auto;
@@ -307,7 +323,6 @@ ul li:hover{
     text-align:center;
     font-style: italic, bold;
     padding:1%;
-    /*background-color:#fcf5e6;*/
 }
 
 .launchInfoHeader{
@@ -341,7 +356,6 @@ ul li:hover{
 .launchContent{
     flex:50%;
     text-align: center;
-    
 }
 
 button{
@@ -372,7 +386,7 @@ button:hover{
     color: #733A19;
 }
 
-/******************* info of every Launch ********************/
+/***************  info of every Launch ******************/
 
 .containerInfo{
     display: flex;
@@ -389,14 +403,11 @@ button:hover{
 .infoImg{
     margin: 8%;
     max-width:80%;
-
 }
 
 .details{
     font-size: 1.3em;
 }
-
-
 
 iframe{
     margin: 0 auto;
@@ -429,13 +440,13 @@ iframe{
 }
 
 
-/************** Meet the crew page ******************/
+/********** Meet the crew page **************/
 
 .crewContainer{
     margin: 0 auto;
     width: 100%;
-    
 }
+
 
 .crewWrap{
     display: flex;
@@ -452,7 +463,7 @@ iframe{
 .crewImgContainer{
     
     flex:50%;
-    width:50%;   
+    width:50%;
 }
 
 .crewImg{
@@ -475,11 +486,12 @@ iframe{
 }
 
 
-/************** The rockets *****************/
+/********** The rockets *************/
 
 .rocketContainer{
      margin: 0 auto;
-     width: 45%;   
+     width: 45%;
+     
 }
 
 .rocketInfoWrap{
@@ -511,7 +523,7 @@ iframe{
 }
 
 
-/************* rocket info page ****************/
+/**************** rocket info page *****************/
 
 .rocketDetailsInfo{
     display: flex;
@@ -519,7 +531,7 @@ iframe{
     width: 90%;
     height: auto;
     margin: 0 auto;
-    background-color: #fcf5e6;  
+    background-color: #fcf5e6;
 }
 
 
@@ -531,7 +543,8 @@ iframe{
     width: 80%;
     margin: 2%;
     box-shadow: 5px 10px #451D13;
-    border: 1px solid #451D13;  
+    border: 1px solid #451D13;
+    
 }
 
 .rocketDetailContent{
@@ -542,8 +555,9 @@ iframe{
     max-width: 40%;
     padding:3%;
     border: 1px solid #451D13;
+    background-color:#bea06e;
     border-radius: 10px 10px;
-    box-shadow: #451D13 5px 5px ;  
+    box-shadow: #451D13 5px 5px ;
 }
 
 .rocketComapny{
@@ -559,7 +573,9 @@ iframe{
 .contactWrap{
     display:flex;
     width:80%;
+    padding:2%;
     margin:0 auto;
+    background-color:#fcf5e6;
 }
 
 .contactForm{
@@ -655,7 +671,9 @@ input::placeholder{
     font-size: 0.8em;
 }
 
-/********************** Aobut page ***********************/
+
+
+/********************** Aobut page***********************/
 
 
 .aboutWrap{
@@ -672,7 +690,9 @@ input::placeholder{
     padding:5%;
     border:1px solid #451D13;
     background-color:#bea06e;
-    border-radius:10px;  
+    border-radius:10px;
+    
+      
   }
 
 .aboutTextWrap{
@@ -688,9 +708,10 @@ input::placeholder{
     border:1px solid #451D13;
 }
 
-/************* FOOTER **************/ 
+/************** FOOTER ****************/ 
 
 footer{
+    
     clear:boath;
     left: 0;
     bottom: 0;
@@ -708,9 +729,10 @@ footer{
 .footerWrap{
     display: flex;
     width: 80%;
-    margin:5% auto 1% auto;
+    margin:2% auto 1% auto;
     list-style-type: none;
     text-align:center;
+
 }
 
 
@@ -737,7 +759,6 @@ footer a{
 .liSocial{
     flex: 30%;
     width:30%;
-    padding:2%;
 }
 
 .liAlign{
@@ -750,7 +771,8 @@ footer a{
 }
 
 .facebook{
-    width:50px;       
+    width:50px;
+    
 }
 
 .instagram{
@@ -762,7 +784,7 @@ footer a{
     width:50px;
     height:auto;
 }
-    
+
 .twitter{
     width:50px;
     height:auto;
@@ -770,7 +792,7 @@ footer a{
 
 .facebook:hover{
     opacity: 0.5;
-        
+    
 }
 
 .instagram:hover{
@@ -787,7 +809,7 @@ footer a{
 
 
 
-/*********** LOADER ************/
+/*************** LOADER **************/
 
 .loader {
     margin: 0 auto;
@@ -807,6 +829,7 @@ footer a{
         transform: rotate(360deg);
     }
 }
+
 
 
 
