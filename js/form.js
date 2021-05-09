@@ -44,21 +44,19 @@ function formValidation(event){
 
 form.addEventListener("submit",formValidation);
 
-
-function charLength(vaule, len){
-  if(vaule.trim().length > len){
-    if (yourName.value === true && 
-      message.value=== true){
-      document.contactForm.submit();
-  }
+function charLength(vaule, lengde){
+  if(vaule.trim().length > lengde){
+       /*if (yourName.value === true && 
+        message.value=== true){
+        document.contactForm.submit();
+        }*/
       return true;
-      
-  } else{
+  } else {
       return false;
   }
-  
- 
 }
+
+
 
 
 function validateEmail(email) { 
@@ -67,50 +65,10 @@ function validateEmail(email) {
    return patternMatches;
  }
 
- 
-
-/*
-if (charLength.test(yourName.value) === true
-    && charLength.test(message.value) === true) {
-    document.contactForm.submit();
-}
 
 
-if (yourName.value === 3 && message.value === 10){
-        document.contactForm.submit();
-    }
 
 
-i
-
-
-/*
-
-var gender = "female";
-var age = 16;
-
-if(yourName.value > 3 && message > 10){
-  console.log("Girl");
-}
-
-*/
-
-
-/*if (yourName.value === 3 && message.value === 10){
-        document.contactForm.submit();
-    }*/
-
-
-/*
-
-var gender = "female";
-var age = 16;
-
-if(gender === "female" && age > 18){
-  console.log("Girl");
-}
-
-*/
 
  
  

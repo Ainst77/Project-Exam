@@ -22,18 +22,17 @@ setTimeout(function(){
             
             json.forEach(function (launch)  {   
                
-                launchContainer.innerHTML += `<a class="launchInfo" href="details.html?id=${launch.id}">     
+                launchContainer.innerHTML += `<a class="launchInfo" href="launchDetails.html?id=${launch.id}">     
                                                         <div class="launchImgContainer">
-                                                        <img class="launchImg" src="${launch.links.patch.large}"/>
-                        
+                                                            <img class="launchImg" src="${launch.links.patch.large}"/>
                                                         </div>
-                                                            <div class="launchContent">
+                                                        
+                                                        <div class="launchContent">
                                                             <h2 class="launchInfoHeader"> ${launch.name}</h2>
                                                             <h4 class="launchDates"> ${launch.date_local}</h4>
                                                             <button>View more</button>
-                                                            </div>
-                                                        </a>
-                                                        ` ;  
+                                                        </div>
+                                                </a>` ;  
                                                         
                                                 });
                                                                       
@@ -44,6 +43,8 @@ setTimeout(function(){
         }
     callApi();
 },3000);
+
+
 
 
 
